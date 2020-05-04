@@ -37,10 +37,10 @@ def turn(board)
   loop do
     if valid_move?(board, index)
       break
+    end
+  end
     move(board, index)
     display_board(board)
-  end
-  end
 end
   
   
